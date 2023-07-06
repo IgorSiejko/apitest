@@ -38,15 +38,15 @@
         <div>
         <form @submit.prevent="addProduct">
             <label for="productName">Product Name:</label>
-            <input type="text" id="productName"  class="addProductInput" v-model="productName" required>
+            <input type="text" id="productName"  class="addProductInput" v-model="Name" required>
             <br>
     
             <label for="productDescription">Product Description:</label>
-            <textarea id="productDescription" class="addProductInput" v-model="productDescription" required></textarea>
+            <textarea id="productDescription" class="addProductInput" v-model="Description" required></textarea>
             <br>
     
             <label for="productPrice">Product Price:</label>
-            <input type="number" id="productPrice" class="addProductInput" v-model="productPrice" required>
+            <input type="number" id="productPrice" class="addProductInput" v-model="Price" required>
             <br>
     
             <button type="submit">Add Product</button>

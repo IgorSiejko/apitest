@@ -2,6 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import AddProduct from './components/AddProduct.vue'
 import ViewProduct from './components/ViewProduct.vue'
+import DeleteProduct from './components/DeleteProduct.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import ViewProduct from './components/ViewProduct.vue'
   <main>
     <ViewProduct/>
     <AddProduct/>
+    <DeleteProduct/>
   </main>
 </template>
 
